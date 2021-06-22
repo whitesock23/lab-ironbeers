@@ -5,3 +5,45 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+
+body {
+    background-color: white;
+}
+
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-dark {
+    background-color: #007bff!important;
+    color: white!important;
+}
+
+.nav-link {
+    color:white;
+}
+
+.card-img-top {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+}
+
+img.random-card-img {
+    height: 350px;
+}
+
+img.card-img-top {
+    width: 20%;
+}
+
+.card {
+    align-items: center;
+}

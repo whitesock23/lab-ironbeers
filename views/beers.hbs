@@ -1,0 +1,15 @@
+<div class="row">
+    {{#each beersFromTheAPI}}
+        {{> beerpartial}}
+    {{/each}}   
+</div>
+
+{{!-- <ul>
+    {{#each beersFromTheAPI}}
+    <li><h5>{{name}}</h5>
+        <img src={{image_url}} alt={{image}} />
+        <p>{{description}}</p>
+        <p>{{tagline}}</p>
+    </li>
+    {{/each}}
+</ul> --}}
